@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ejercicio 2 - Albert Camus</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to bottom, #8B0000, #4B0000);
+    margin: 0;
+    padding: 30px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background: white;
+    border: 12px solid #8B0000;
+    border-radius: 20px;
+    max-width: 850px;
+    width: 100%;
+    box-shadow: 0 0 30px rgba(139,0,0,0.8);
+    overflow: hidden;
+}
+
+
+.header {
+    background: #8B0000;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.title {
+    font-family: 'Playfair Display', serif;
+    font-size: 46px;
+    margin: 10px;
+    color: #FFD700;
+}
+
+
+/* FOTO DE ALBERT CAMUS */
+
+.cam-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid #FFD700;
+    margin: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+}
+
+
+
+/* CONTENIDO */
+
+.content {
+    padding: 30px 50px;
+    color: #333;
+}
+
+
+h2 {
+    color:#8B0000;
+    text-align:center;
+    font-size:32px;
+    border-bottom:4px solid #FFD700;
+    padding-bottom:12px;
+}
+
+
+/* LIBROS */
+
+.books {
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    margin-top:30px;
+}
+
+
+.book {
+    width:170px;
+    height:240px;
+    object-fit:cover;
+    border:5px solid #8B0000;
+    border-radius:10px;
+    box-shadow:0 6px 15px rgba(0,0,0,0.3);
+}
+
+
+.obras {
+    columns:2;
+    line-height:2;
+    font-size:17px;
+}
+
+
+.quote {
+    text-align:center;
+    margin:40px 0;
+    font-style:italic;
+    padding:25px;
+    background:#f9f9f9;
+    border-left:6px solid #8B0000;
+}
+
+
+.footer {
+    background:#8B0000;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+<div class="container">
+
+
+<div class="header">
+
+<h1 class="title">ALBERT CAMUS</h1>
+
+
+<img src="https://i.pinimg.com/736x/07/b3/b3/07b3b397c6545fdfbf89b369a7aed398.jpg"
+class="cam-image"
+alt="Albert Camus">
+
+
+<p style="font-size:22px;">(1913 - 1960)</p>
+
+</div>
+
+
+
+<div class="content">
+
+
+<h2>Obras Principales</h2>
+
+
+<div class="obras">
+
+<ul>
+
+<li><strong>El Extranjero</strong> (1942)</li>
+
+<li><strong>La Peste</strong> (1947)</li>
+
+<li><strong>El Mito de Sísifo</strong> (1942)</li>
+
+<li><strong>El Hombre Rebelde</strong> (1951)</li>
+
+<li><strong>Calígula</strong> (1944)</li>
+
+<li><strong>Los Justos</strong> (1949)</li>
+
+<li><strong>La Caída</strong> (1956)</li>
+
+<li><strong>El Verano</strong> (1954)</li>
+
+</ul>
+
+</div>
+
+
+
+<!-- PORTADAS DE LIBROS -->
+
+<div class="books">
+
+
+<img src="https://i.pinimg.com/736x/4d/83/8c/4d838cf281989cf1c695f478f7270c2f.jpg"
+class="book"
+alt="El Extranjero">
+
+
+<img src="https://i.pinimg.com/1200x/a3/cd/ed/a3cded1179332cd7daf05f05fa03c419.jpg"
+class="book"
+alt="La Peste">
+
+
+<img src="https://i.pinimg.com/736x/bd/50/71/bd50719038cdf97668c4e7a5aff5d98f.jpg"
+class="book"
+alt="El Mito de Sísifo">
+
+
+</div>
+
+
+
+<div class="quote">
+
+“En el fondo de nuestro corazón siempre hay algo de esperanza,
+como hay algo de cielo en el fondo de un vaso de vino.”
+
+<br>
+
+— Albert Camus
+
+</div>
+
+
+</div>
+
+
+
+<div class="footer">
+
+ALBERT CAMUS 
+
+</div>
+
+
+
+<ul>
+
+</body>
+</html>
